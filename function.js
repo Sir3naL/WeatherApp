@@ -39,12 +39,26 @@ $( () => {
                 });
                 
                let imgURL = "http://openweathermap.org/img/w/" + response.weather[0].icon + ".png";
-               console.log(imgURL)
-               if (response.weather[0].icon === '10d') {
-                   $("#icon").append(`<img class="image-stats" src="https://png.icons8.com/windows/1600/clouds.png">`);
+               //console.log(imgURL)
+               //if (response.weather[0].icon === '03d') {
+                $("#icon").append(`<img class="image-stats" src=${imgURL}>`);
                    
-               }  
-            
+               //}  
+               
+               let iconCon = response.weather[0].icon;
+               let iconChar = iconCon.substring(iconCon.length - 1);
+               console.log(iconChar);
+
+               if (iconChar === 'd') {
+                    $(document.body).css("background-image", 'url("http://globalmedicalco.com/photos/globalmedicalco/3/10474.jpg")');
+
+               }
+
+               if (iconChar === 'n') {
+                $(document.body).css("background-image", 'url("https://i.pinimg.com/originals/c7/ec/a4/c7eca4a1bf5d4ad5db49192ba8ae0617.jpg")');
+
+               }
+
                 $("#condition").html("(" + response.weather[0].description + ")");
 
                 $("#others").append("Humidity: " + response.main.humidity + " %");

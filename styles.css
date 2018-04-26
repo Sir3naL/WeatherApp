@@ -7,6 +7,8 @@ body {
     font-family: 'Quicksand', sans-serif;
     color: white;
     text-shadow: 1px 1px 0.2px black;
+    height: 100%;
+    width: 100%;
    
 }
 
@@ -65,8 +67,8 @@ body {
 }
 
 .image-stats {
-    height: 100px;
-    width: 100px;
+    height: auto;
+    max-width: 100%;
     margin: auto;
     display: block;
     
