@@ -1,0 +1,91 @@
+body {
+    background-image: url("http://globalmedicalco.com/photos/globalmedicalco/3/10474.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Quicksand', sans-serif;
+    color: white;
+    text-shadow: 1px 1px 0.2px black;
+   
+}
+
+#data {
+    background-color: rgba(255, 255, 255, 0.2);
+    text-align: center;
+    font-size: 2.5vw;
+    
+}
+
+#data h4 {
+    margin-top: 2%;
+}
+
+#weather {
+    font-size: 5vw;
+    text-align: center;
+    font-weight: 800;
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 1%;
+}
+
+#temperature {
+    background-color: rgba(255, 255, 255, 0.2);
+    font-size: 9vw;
+    text-align: center;
+    margin-top: 2%;
+    padding: 0.5%;
+    
+}
+
+#condition {
+    background-color: rgba(255, 255, 255, 0.2);
+    font-size: 3vw;
+    text-align: center;
+    padding: 1%;
+}
+
+#others {
+    background-color: rgba(255, 255, 255, 0.2);
+    font-size: 2.5vw;
+    text-align: center;
+    padding: 0.5%;
+    margin-top: 2%;
+}
+
+#others h4 {
+    font-size: 3vw;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+#icon {
+    background-color: rgba(255, 255, 255, 0.2);
+    
+}
+
+.image-stats {
+    height: 100px;
+    width: 100px;
+    margin: auto;
+    display: block;
+    
+}
+
+.image-stats p {
+    opacity: 1;
+}
+
+#footer {
+    background-color: rgba(255, 255, 255, 0.2);
+    font-size: 1.5vw;
+    text-align: center;
+    margin-top: 2%;
+
+}
+
+#farenheit {
+    font-size: 1.5vw;
+    margin-left: 10px;
+    color: white;
+}
