@@ -66,7 +66,7 @@ $( () => {
                 $("#others").append(`<br>Wind speed: ${response.wind.speed} m/s`);
                 $("#others").append(`<br>Cloudiness: ${response.clouds.all} %`);
 
-                
+                // sldjandla
 
                 
             
